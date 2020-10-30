@@ -1,24 +1,18 @@
-import './App.css';
-import { Login, Register, Profile } from './components/index';
+import "./App.css";
+import { Login, Register, Profile } from "./components/index";
 import axios from "axios";
-import {Container, } from '@material-ui/core';
+import { Container } from "@material-ui/core";
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-            {/* Nav */}
-            {/* <Login /> */}
-            {/* <Register /> */}
-            <Profile />
-            {/* Profile
+      {/* Nav */}
+      {/* <Login /> */}
+      {/* <Register /> */}
+      <Profile />
+      {/* Profile
                   - ImageInput
                   - ImageDisplay
                   - ImageHistory

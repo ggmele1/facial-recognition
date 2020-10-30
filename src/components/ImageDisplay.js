@@ -1,13 +1,8 @@
-import React from 'react';
-
+import React from "react";
 
 const ImageDisplay = (props) => {
-    const {celebrityFound} = props;
-    return (
-        <div>
-            {celebrityFound}
-        </div>
-    )
-}
+  const { celebrityFound } = props;
+  return <div>{celebrityFound}</div>;
+};
 
 export default ImageDisplay;
